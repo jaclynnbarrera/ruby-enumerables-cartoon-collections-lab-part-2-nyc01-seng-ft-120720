@@ -2,12 +2,12 @@ def square_array(array)
     array.map {|el| el * el}
 end
 
-def summon_captain_planet(planeteer_calls)
-  planeteer_calls.collect_concat { |el| [el.capitalize + "!"] } 
+def summon_captain_planet(array)
+  array.collect_concat { |el| [el.capitalize + "!"] } 
 end
 
-def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.any? { |el| el.length >= 5}
+def long_planeteer_calls(array)
+  array.any? { |el| el.length >= 5}
 end
 
 def find_valid_calls(planeteer_calls)
