@@ -12,6 +12,5 @@ end
 
 
 def find_valid_calls(array)
-  
   array.find {|el| el == "Earth!" or el == "Wind!" or el == "Fire!" or el == "Water!" or el == "Heart!" }
 end
