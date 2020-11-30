@@ -3,7 +3,8 @@ def square_array(array)
 end
 
 def summon_captain_planet(array)
-  array.collect_concat { |el| [el.capitalize + "!"] } 
+  #array.collect_concat { |el| [el.capitalize + "!"] } 
+  puts str.capitalize() + "!"
 end
 
 def long_planeteer_calls(array)
