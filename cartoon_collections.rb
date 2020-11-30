@@ -5,7 +5,7 @@ end
 def summon_captain_planet(array)
   #array.collect_concat { |el| [el.capitalize + "!"] } 
   array.map do |str|
-    puts str.capitalize() + "!"
+    str.capitalize() + "!"
 	end
 end
 
