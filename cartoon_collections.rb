@@ -17,7 +17,9 @@ def find_valid_calls(array)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
   array.find do |str|
-		str == valid_calls
+		if str == valid_calls
+		puts str
+
 	end 
   
   #planeteer_calls.find {|el| el == "Earth!" or el == "Wind!" or el == "Fire!" or el == "Water!" or el == "Heart!" }
