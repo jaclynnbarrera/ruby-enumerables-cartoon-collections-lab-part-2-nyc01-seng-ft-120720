@@ -16,7 +16,7 @@ end
 def find_valid_calls(array)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
-  array.select do |str|
+  array.find do |str|
 		str == valid_calls
 		return str
 	end 
